@@ -1,0 +1,26 @@
+#===============================================================================
+#
+#         FILE:  check_rss_mem.pl
+#
+#        USAGE:  ./check_rss_mem.pl -w [warning] -c [critical]
+#
+#  DESCRIPTION:  Nagios Plugin - Check Reserved Memory for Solaris
+#
+#      OPTIONS:  ---
+# REQUIREMENTS:  ---
+#         BUGS:  ---
+#        NOTES:  ---
+#      LICENSE:  This Nagios module is under GPLv2 License
+#       AUTHOR:  Pierre Mavro (), pierre@mavro.fr
+#      COMPANY:  
+#      VERSION:  1.0
+#      CREATED:  07/12/2009 09:18:41
+#     REVISION:  ---
+#===============================================================================
+#
+# Usage : check_mem_rss.pl -w warn -c critical
+#    -w : Warning at a percentage number of unfree ram
+#    -c : Critical at a percentage number of unfree ram
+#
+# example : ./check_mem_rss.pl -w 80 -c 90
+#
